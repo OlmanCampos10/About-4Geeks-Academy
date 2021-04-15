@@ -1,0 +1,110 @@
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Olman 
+    last_name: Campos Fallas
+    
+    # Define yourself in 4-5 words
+    motto: I like to be an starter up
+    
+    # focus
+    focus: To learn in order to growing everyday
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am looking to transition into the tech world. I have always been fascinated by computers and programming. After a couple of years in the marketing Bussiness, I decided it was time to 
+      switch and dive into programming full-time.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/39597910?s=400&u=802f42873cd0b7cb8079be2cb4e99ece2f01d2a5&v=4
+
+    # Contact Information
+    email: olmancampos07@hotmail.com #optional
+    phone: +506 85579419
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: OlmanCampos10
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: B1
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Networking 
+
+      - item: Cybersecurity
+
+      - item: Farm
+      
+      - item: Sports
+      
+      - item: Family
+      
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: System Enginner 
+      university: Fidelitas University
+      # optional
+      university_logo: https://ufidelitas.ac.cr/wp-content/uploads/2020/10/logo.png
+      time: 2017 - 2019
+      details: | 
+    - degree: CCNA 
+      university: UCR University  
+      # optional
+      university_logo: http://academiatecnologia.ucr.ac.cr/wp-content/uploads/2019/06/tecnologia.png
+      time: 2017 - 2017
+      details: |
+# Your previous job experiences or voluntier
+experiences:
+    - role: Networking
+      time: Current
+      company: CNFL
+      # optional
+      company_logo: 
+      details: networking |
+    
+    # Your project portfolio
+projects:
+    intro: >
+    assignments:
+      - title: Digital Postcard
+        # optional
+        project_logo: https://github.com/OlmanCampos10/POSTCARD.git
+        link: "#hook"
+        tagline: "A digital postcard created using HTML and CSS that you can send to your friends and family."
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Bootstrap
+        level: 25%
+
+      - name: Git & YAML
+        level: 30%
